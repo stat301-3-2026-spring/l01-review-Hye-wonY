@@ -26,8 +26,6 @@ citation-location: margin
 ::: {.callout-tip icon="false"}
 ## Github Repo Link
 
-To link to your github **repo**sitory, appropriately edit the example link below. Meaning replace `https://your-github-repo-url` with your github repo url. Suggest verifying the link works before submitting.
-
 [Repo](https://github.com/stat301-3-2026-spring/l01-review-Hye-wonY)
 :::
 
@@ -46,9 +44,11 @@ Provide a brief outline/overview of the steps involved in a supervised machine l
 ::: {.callout-tip icon="false"}
 ## Solution
 
+- Collect data
+- Conduct EDA (explore distributions, relationships, outliers, and patterns)
 - Clean data
 - Split data
-- Conduct EDA and feature engineering exploration
+- Conduct feature engineering exploration on training data
 - Fold training data (if resampling)
 - Define/create recipes
 - Set engine with tuning parameters (if applicable)
