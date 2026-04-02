@@ -33,11 +33,11 @@ citation-location: margin
 
 The goal of this lab is to review machine learning/predictive modeling vocabulary and concepts covered in Data Science 2 with R (STAT 301-2).
 
-## Questions
+## Questions :white_check_mark:
 
 When completing the following questions ensure your solutions are neatly formatted and clearly indicated. Consider including diagrams/images in some of your solutions, if it helps to make things easier to describe/discuss.
 
-### Question 1
+### Question 1 :white_check_mark:
 
 Provide a brief outline/overview of the steps involved in a supervised machine learning process. Could provide this as a bulleted list. 
 
@@ -64,7 +64,7 @@ data set
 
 :::
 
-### Question 2
+### Question 2 :white_check_mark:
 
 Explain the difference between supervised and unsupervised learning.
 
@@ -79,7 +79,7 @@ data with a specific goal/prediction in mind.
 
 :::
 
-### Question 3 
+### Question 3 :white_check_mark:
 
 In general, we can classify a model by its purpose into 1 of the 3 categories below. Provide a brief description of the goals of these model classes.
 
@@ -120,7 +120,7 @@ unknown from this information.
 
 :::
 
-### Question 4 
+### Question 4 :white_check_mark:
 
 We can further describe/classify predictive models by how they were derived or developed as being either mechanistic or empirically driven. 
 
@@ -215,7 +215,7 @@ the model become less effective when applied to different data sets
 
 :::
 
-### Question 5 
+### Question 5 :white_check_mark:
 
 Explain the difference between a regression and classification machine learning (ML) problems.
 
@@ -231,7 +231,7 @@ whether an email is spam or not spam).
 
 :::
 
-### Question 6 
+### Question 6 :white_check_mark:
 
 When splitting the data, why is it useful to stratify by the outcome/target variable? 
 
@@ -247,7 +247,7 @@ data set so that the models are reliable (not biased).
 
 :::
 
-### Question 7 
+### Question 7 :white_check_mark:
 
 Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it. 
 
@@ -272,7 +272,7 @@ a various combinations of the data.
 
 :::
 
-### Question 8
+### Question 8 :white_check_mark:
 
 When might we use a bootstrap resampling procedure instead of v-fold cross validation to estimate test RMSE?
 
@@ -285,7 +285,7 @@ high/unstable variance in the RMSE estimates.
 
 :::
 
-### Question 9 
+### Question 9 :white_check_mark:
 
 Briefly describe model tuning and why we use it.
 
@@ -302,7 +302,7 @@ lead to the best model.
 
 :::
 
-### Question 10 
+### Question 10 :white_check_mark:
 
 What are two common performance metrics when dealing with a regression ML problem?
 
@@ -322,7 +322,7 @@ Accuracy and ROC-AUC.
 
 :::
 
-### Question 11
+### Question 11 :white_check_mark:
 
 Classify each question/problem below as either prediction or inferential. Explain your reasoning for each.
 
