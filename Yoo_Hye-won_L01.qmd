@@ -1,0 +1,354 @@
+---
+title: "L01 Review"
+subtitle: "Data Science 3 with R (STAT 301-3)"
+author: "Hye-won Yoo"
+pagetitle: "L01 Hye-won Yoo"
+date: today
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-depth: 4
+    toc-location: left
+    embed-resources: true
+    code-fold: false
+    link-external-newwindow: true
+
+execute:
+  warning: false
+
+from: markdown+emoji
+reference-location: margin
+citation-location: margin   
+---
+
+::: {.callout-tip icon="false"}
+## Github Repo Link
+
+To link to your github **repo**sitory, appropriately edit the example link below. Meaning replace `https://your-github-repo-url` with your github repo url. Suggest verifying the link works before submitting.
+
+[Repo](https://github.com/stat301-3-2026-spring/l01-review-Hye-wonY)
+:::
+
+## Overview
+
+The goal of this lab is to review machine learning/predictive modeling vocabulary and concepts covered in Data Science 2 with R (STAT 301-2).
+
+## Questions
+
+When completing the following questions ensure your solutions are neatly formatted and clearly indicated. Consider including diagrams/images in some of your solutions, if it helps to make things easier to describe/discuss.
+
+### Question 1
+
+Provide a brief outline/overview of the steps involved in a supervised machine learning process. Could provide this as a bulleted list. 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+- Clean data
+- Split data
+- Conduct EDA and feature engineering exploration
+- Fold training data (if resampling)
+- Define/create recipes
+- Set engine with tuning parameters (if applicable)
+  * Look at multiple models if you want to compare!
+- Store parameters, update, and store grid (if applicable)
+- Create workflow
+- Tune model grid (if applicable)
+- Compare models based on performance metrics to see which is the best 
+performing model
+- Choose best model and train on full training data
+- Find predicted values and assess performance metrics of model on testing 
+data set
+
+:::
+
+### Question 2
+
+Explain the difference between supervised and unsupervised learning.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Supervised learning often has a specific outcome or response variable that it 
+is considering/exploring. However, unsupervised learning looks for patterns in 
+the raw dataset without a specific outcome in mind. Therefore, they cluster the 
+data points and explore any conclusions from there rather than explore the 
+data with a specific goal/prediction in mind. 
+
+:::
+
+### Question 3 
+
+In general, we can classify a model by its purpose into 1 of the 3 categories below. Provide a brief description of the goals of these model classes.
+
+#### Descriptive Models 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Descriptive models are used to describe the characteristics of the data and 
+visually emphasize a trend of the data. It does not aim to look make any 
+inferences or predictions about the data but simply illustrates the data 
+itself. 
+
+:::
+
+#### Inferential Models
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Inferential models aims to answer a specific research question or test a 
+hypothesis. Essentially, there is already a hypothesized relationship 
+between two variables, and inferential models tests whether this relationship 
+exists from the data. For example, it looks at whether variable X influences
+variable Y. 
+
+:::
+
+#### Predictive Models
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Predictive models aim to take in the patterns and relationships from the data 
+in order to predict a future unknown. Therefore, they will look at all the 
+variables in the dataset and see if they are able to accurately predict an 
+unknown from this information. 
+
+:::
+
+### Question 4 
+
+We can further describe/classify predictive models by how they were derived or developed as being either mechanistic or empirically driven. 
+
+#### Part (a)
+
+What does it mean to be a mechanistic model?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+When something is a mechanistic model, it means that it is rooted in/based on 
+existing principles that help make its predictions. 
+
+:::
+
+#### Part (b)
+
+What does it mean to be an empirically driven model?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+When something is an empirically driven model, it means that it is rooted in/
+based on solely the provided data, identifying patterns in the data to make 
+future predictions. 
+
+:::
+
+#### Part (c)
+
+How does the mechanistic and empirically driven model terminology relate to the parametric and nonparametric model terminology? 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Mechanistic driven model terminology align more with parametric model 
+terminology because they are both based on fixed parameters. Mechanistic driven 
+models are derived from existing theoretical principles and parametric models 
+usually fit the data into an existing equation. Similarly, empirically driven 
+model terminology maps on well with nonparametric model terminology as both 
+rely primarily on the data to determine how the model is derived and structured. 
+
+:::
+
+#### Part (d)
+
+In general, is a mechanistic or empirically driven model easier to interpret? Explain.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Mechanistic driven models are easier to interpret as they are rooted in 
+existing principles that are easier to explain to a general audience. Also, 
+empirically driven models are more likely to capture complex relationships that 
+may be less intuitive. 
+
+:::
+
+#### Part (e)
+
+How does mechanistic and empirically driven model terminology relate to the idea of model flexibility? That is, which would be more or less flexible than the other.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Empirically driven models are often more flexible than mechanistic driven models
+as they are being derived solely from the data. Therefore, they are able to 
+adapt to the data itself and capture unexpected, complex relationships. On the 
+other hand, mechanistic driven models are derived from existing principles in 
+addition to the data. Therefore, it is more restricted and inflexible. 
+
+:::
+
+#### Part (f)
+
+Describe the bias-variance trade-off when considering the use of a mechanistic or empirically driven model. 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Mechanistic driven models are likely to have high bias and, therefore, low 
+variance. This means that, due to its rigidity, this model is less likely to 
+capture complex patterns/relationships in the data. However, due to this 
+rigidity, it is less likely to overfit to the specific provided dataset, 
+making it more effective/generalizable on other data sets. It is important to 
+note that there is also a higher risk of underfitting to the data. Empirically 
+driven models have the opposite end of the bias-variance trade-off with low bias
+and high variance. Due to its flexibility, this model is very good at 
+capturing complex relationships in the data (low bias) but this means that 
+the model become less effective when applied to different data sets 
+(high variance). Therefore, there is a higher chance of overfitting to the data.
+
+:::
+
+### Question 5 
+
+Explain the difference between a regression and classification machine learning (ML) problems.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+In regression machine learning problems, the response variable is continuous, 
+meaning the goal is to predict a specific numerical value along a continuous 
+range (ex. house price or a person's age). In classification machine learning 
+problems, however, the response variable is categorical, meaning the goal is to 
+predict which distinct class or group an observation belongs to (ex.determining 
+whether an email is spam or not spam). 
+
+:::
+
+### Question 6 
+
+When splitting the data, why is it useful to stratify by the outcome/target variable? 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+It is useful to stratify by the outcome/target variable to ensure that 
+distribution of the response variable is proportionally represented in both the 
+training and testing data sets. This is especially important in classification 
+problems with class imbalances in the response variable. Essentially, it 
+ensures that the training and testing data set is representative of the full 
+data set so that the models are reliable (not biased). 
+
+:::
+
+### Question 7 
+
+Briefly describe how v-fold cross validation with repeats is used to estimate test RMSE. Also provide an explanation of why we use it. 
+
+::: {.callout-tip icon="false"}
+## Solution
+
+V-fold cross validation divides the training dataset into a specified number 
+of even folds. Then, every fold except for one is used to "train" the model. 
+The final fold is used to "test" this model and produces an RMSE (or other 
+performance metric). This process repeats until each fold has been used as the 
+assessment fold. Then, the average of all the RMSEs are taken to produce an 
+estimated test RMSE. Repeats mean that the data is shuffled again after this 
+process and re-divided into new folds. Then, the whole process begins again 
+with these folds. The average off all the RMSEs across these repeats are 
+taken to make the estimate even more stable. This is used because it allows 
+for the model to be trained and tested more times (on different data) before 
+being applied to the testing dataset and is an efficient use of the data. Also, 
+this extensive process can reduce the likelihood of overfitting as it is fit on 
+a various combinations of the data. 
+
+
+
+:::
+
+### Question 8
+
+When might we use a bootstrap resampling procedure instead of v-fold cross validation to estimate test RMSE?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Bootstrap resampling procedure may be preferred instead of v-fold cross 
+validation to estimate test RMSE if the data set is very small or there is 
+high/unstable variance in the RMSE estimates. 
+
+:::
+
+### Question 9 
+
+Briefly describe model tuning and why we use it.
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Model tuning is when we are changing the specific hyperparameters (elements of 
+the model that influence its behavior and performance) to find the ones that 
+lead to the best performing model. These are directly adjusted/changed by the 
+researcher. Model tuning is used as the default hyperparameters values are 
+often not the best for different datasets. Each dataset has unique patterns 
+and characteristics that influence which model hyperparameter values may 
+lead to the best model. 
+
+:::
+
+### Question 10 
+
+What are two common performance metrics when dealing with a regression ML problem?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE).
+
+:::
+
+What are two common performance metrics when dealing with a classification ML problem?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+Accuracy and ROC-AUC. 
+
+:::
+
+### Question 11
+
+Classify each question/problem below as either prediction or inferential. Explain your reasoning for each.
+
+A company with a subscription based service (for example Netflix, Disney+, New York Times, etc) has data concerning customer interactions with a them, including features like the number of customer service calls, quality of service calls, subscription length, engagement with the service, discounted service, etc. They are interested in two questions:
+
+1. Does a high number of service calls impact a customer's likelihood of churn in the next month (leave the company/drop the service)?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+This is inferential as it is looking at how one variable is influencing the 
+outcome of another. Therefore, it is looking at the relationship between 
+two variables (number of service calls and customer's likelihood of churn in 
+the next month). They want to draw a conclusion/answer for their specific 
+research question. 
+
+:::
+
+2. How likely is it that a customer will churn in the next month (leave the company/drop the service)?
+
+::: {.callout-tip icon="false"}
+## Solution
+
+This is predictive as it wants to the predict a future unknown (likelihood 
+that a customer will churn in the next month) based on the current dataset. It 
+is not looking into how certain variables will influence this outcome but 
+rather only looking at the outcome based on existing data. 
+:::
+
