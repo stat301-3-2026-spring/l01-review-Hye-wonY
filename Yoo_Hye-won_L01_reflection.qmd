@@ -1,10 +1,8 @@
 ---
-title: "Self Evaluation L01 Review"
-subtitle: |
-  | Data Science 2 with R 
-  | STAT 301-2
+title: "L01 Review"
+subtitle: "Data Science 3 with R (STAT 301-3)"
 author: "Hye-won Yoo"
-pagetitle: "Self Evaluation PQ2 Hye-won Yoo"
+pagetitle: "L01 Hye-won Yoo"
 date: today
 
 format:
@@ -19,12 +17,12 @@ format:
 
 execute:
   warning: false
-  error: true
 
 from: markdown+emoji
 reference-location: margin
-citation-location: margin 
+citation-location: margin   
 ---
+
 ::: {.callout-tip icon="false"}
 ## Github Repo Link
 
@@ -66,21 +64,6 @@ data set
 
 :::
 
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-## Explanation
-
-I believe that I got a 5 on this question because I not only 
-included all the required steps listed in the solution, but I then added more nuanced/detailed steps in between as well. Therefore, I extended past the provided solution.
-
-:::
-
 ### Question 2 :white_check_mark:
 
 Explain the difference between supervised and unsupervised learning.
@@ -93,21 +76,6 @@ is considering/exploring. However, unsupervised learning looks for patterns in
 the raw dataset without a specific outcome in mind. Therefore, they cluster the 
 data points and explore any conclusions from there rather than explore the 
 data with a specific goal/prediction in mind. 
-
-:::
-
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-4
-
-## Explanation
-
-I believe I got a 4 on this problem as I got the overall, main 
-differences between supervised and unsupervised learning. However, I did not specify that supervised learning is used on unseen, new data. I did state that it has a specific outcome variable but did not state that this type of learning is to train a model to predict this outcome on new data. I am aware of this difference but just did not specify the details as I thought it was self-explanatory.
 
 :::
 
@@ -127,20 +95,6 @@ itself.
 
 :::
 
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-## Explanation
-
-I believe I got full points on this as I stated that descriptive models are both to describe the data's characteristics and to visually emphasize a trend. 
-
-:::
-
 #### Inferential Models
 
 ::: {.callout-tip icon="false"}
@@ -154,29 +108,7 @@ variable Y.
 
 :::
 
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-3
-
-## Explanation
-
-Although I stated that inferential models is used to test a hypothesis and how, I neglected to state that this model greatly depends on underlying assumptions. I did not include this in my original answer as I was only focused on the main purpose of inferential models. 
-
-## Updated solution
-
-Inferential models aims to answer a specific research question or test a 
-hypothesis. Essentially, there is already a hypothesized relationship 
-between two variables, and inferential models tests whether this relationship 
-exists from the data. For example, it looks at whether variable X influences
-variable Y. Additionally, these types of models heavily depend on underlying assumptions in comparison to the other two models.
-
-:::
-
-#### Predictive Models 
+#### Predictive Models
 
 ::: {.callout-tip icon="false"}
 ## Solution
@@ -185,20 +117,6 @@ Predictive models aim to take in the patterns and relationships from the data
 in order to predict a future unknown. Therefore, they will look at all the 
 variables in the dataset and see if they are able to accurately predict an 
 unknown from this information. 
-
-:::
-
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-## Explanation
-
-Although I did not outline the explicit application of predictive models on datasets (aka discussing response variables), I was able to describe the conceptual goal of predictive models. This goal aligns with the more explicit application, therefore, I believe that I showed a full understanding of the goal of predictive models. 
 
 :::
 
@@ -218,27 +136,6 @@ existing principles that help make its predictions.
 
 :::
 
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-2
-
-## Explanation
-
-Although I stated that mechanistic models follows a known equation or existing principle to make predictions, I neglected to outline how these equations are used to estimate the parameters. Furthermore, I did not explain the pros, cons, and examples of mechanistic models. Therefore, I felt that my response was incomplete. I believe that I did not add all of these responsese as I was not aware what pieces of information were necessary to respond to this question as it was largely open-ended. 
-
-
-## Updated solution
-
-When something is a mechanistic model, it means that it is rooted in/based on 
-existing principles that help make its predictions by estimating its parameters. It is very fast but largely inflexible as it follows a fixed equation. Some examples of this model are linear and logistic regression.
-
-
-:::
-
 #### Part (b)
 
 What does it mean to be an empirically driven model?
@@ -249,26 +146,6 @@ What does it mean to be an empirically driven model?
 When something is an empirically driven model, it means that it is rooted in/
 based on solely the provided data, identifying patterns in the data to make 
 future predictions. 
-
-:::
-
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-3
-
-## Explanation
-
-I believe that my explanation of empirically driven models is a bit more detailed and align better with the provided solution. To that end, I discussed how it is only based on the dataset and patterns that naturally arise from the data rather than a specific outcome. However, I did not add the pros, cons, and examples for this model. Once again, these were not added in the original answer because I was not aware these aspects were required to answer this question.
-
-## Updated solution
-
-When something is an empirically driven model, it means that it is rooted in/
-based on solely the provided data, identifying patterns in the data to make 
-future predictions. Empirically driven model are very flexible but they can be slower due to this. Some examples for this model are KNN and random forest. 
 
 :::
 
@@ -288,20 +165,6 @@ rely primarily on the data to determine how the model is derived and structured.
 
 :::
 
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-## Explanation
-
-I talked about how mechanistic models align with parametric and empirically driven models align with non-parametric models. Additionally, I expanded past the provided solution
-
-:::
-
 #### Part (d)
 
 In general, is a mechanistic or empirically driven model easier to interpret? Explain.
@@ -313,21 +176,6 @@ Mechanistic driven models are easier to interpret as they are rooted in
 existing principles that are easier to explain to a general audience. Also, 
 empirically driven models are more likely to capture complex relationships that 
 may be less intuitive. 
-
-:::
-
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-## Explanation
-
-I stated that mechanistic models are more easily interpretable because they use equations while empirically driven models are not easily interpretable. This aligns with the provided solution. 
-
 
 :::
 
@@ -343,20 +191,6 @@ as they are being derived solely from the data. Therefore, they are able to
 adapt to the data itself and capture unexpected, complex relationships. On the 
 other hand, mechanistic driven models are derived from existing principles in 
 addition to the data. Therefore, it is more restricted and inflexible. 
-
-:::
-
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-## Explanation
-
-I stated that the empirically driven models are more flexible because it aligns with the provided solution.
 
 :::
 
@@ -381,21 +215,6 @@ the model become less effective when applied to different data sets
 
 :::
 
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-## Explanation
-
-I stated that mechanistic models have high bias and low variance while it is the opposite for empirically driven models. Additionally, I stated that this was due ot the flexibility of each model. This aligned closely with the provided solution. 
-
-
-:::
-
 ### Question 5 :white_check_mark:
 
 Explain the difference between a regression and classification machine learning (ML) problems.
@@ -412,21 +231,6 @@ whether an email is spam or not spam).
 
 :::
 
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-## Explanation
-
-I stated that regression uses a continuous, numeric respons variable while classification uses a categorical response variable. This was the same as the solution, meaning that I fully understood the concept. 
-
-
-:::
-
 ### Question 6 :white_check_mark:
 
 When splitting the data, why is it useful to stratify by the outcome/target variable? 
@@ -440,21 +244,6 @@ training and testing data sets. This is especially important in classification
 problems with class imbalances in the response variable. Essentially, it 
 ensures that the training and testing data set is representative of the full 
 data set so that the models are reliable (not biased). 
-
-:::
-
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-## Explanation
-
-I stated that it is important to stratify by the response variable to ensure that the distribution/proportion of data is the same in both the testing and training data. Furthermore, I stated that neglecting this step may influence the predictive power/reliability of the models. Therefore, I believe I fully understood this concept as it aligned with the provided answer. 
-
 
 :::
 
@@ -483,20 +272,6 @@ a various combinations of the data.
 
 :::
 
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-4
-
-## Explanation
-
-I got the process correct and stated that it was advantageous because it allows the model to be tested on multiple subsets of the data. However, I neglected to state that repeats were used to ensure that the RMSE is not influenced by one split of the data into folds. I believe that I neglected to add this piece of information as I only focused on why the overall process was useful rather than the specific steps of the process. 
-
-:::
-
 ### Question 8 :white_check_mark:
 
 When might we use a bootstrap resampling procedure instead of v-fold cross validation to estimate test RMSE?
@@ -507,20 +282,6 @@ When might we use a bootstrap resampling procedure instead of v-fold cross valid
 Bootstrap resampling procedure may be preferred instead of v-fold cross 
 validation to estimate test RMSE if the data set is very small or there is 
 high/unstable variance in the RMSE estimates. 
-
-:::
-
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-## Explanation
-
-I discussed that this should be used if the dataset is small or if there is unstable variance in the RMSE estimates. The provided solution states that it should be used for smaller datasets and if we want to lower the variance of the RMSE estimates. Therefore, my answer aligns well with the provided solution. 
 
 :::
 
@@ -541,20 +302,6 @@ lead to the best model.
 
 :::
 
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-4
-
-## Explanation
-
-I stated how model tuning is used to find the best model and how hyperparameters are user-defined (changed by the researcher). However, I neglected to explicitly state that each new hyperparameter value results in a new model. I did not mention this as I had originally thought it was self-explanatory. However, in the future, I will be more mindful to include all relevant details. 
-
-:::
-
 ### Question 10 :white_check_mark:
 
 What are two common performance metrics when dealing with a regression ML problem?
@@ -566,42 +313,12 @@ Root Mean Squared Error (RMSE) and Mean Absolute Error (MAE).
 
 :::
 
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-## Explanation
-
-I stated RMSE and MAE like the provided solution. 
-
-
-:::
-
 What are two common performance metrics when dealing with a classification ML problem?
 
 ::: {.callout-tip icon="false"}
 ## Solution
 
 Accuracy and ROC-AUC. 
-
-:::
-
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-## Explanation
-
-I stated accuracy and AUC like the provided solution. 
-
 
 :::
 
@@ -624,21 +341,6 @@ research question.
 
 :::
 
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-
-## Explanation
-
-I stated that it was inferential because it wants to look at the relationship between two variables. This aligns with the provided solution. 
-
-:::
-
 2. How likely is it that a customer will churn in the next month (leave the company/drop the service)?
 
 ::: {.callout-tip icon="false"}
@@ -648,20 +350,5 @@ This is predictive as it wants to the predict a future unknown (likelihood
 that a customer will churn in the next month) based on the current dataset. It 
 is not looking into how certain variables will influence this outcome but 
 rather only looking at the outcome based on existing data. 
-:::
-
-### Self Evaluation :white_check_mark:
-
-::: {.callout-important icon="false"}
-
-## Score 
-
-5
-
-
-## Explanation
-
-I stated that it was predictive because it only focuses on the outcome variable and not what influences this outcome (why). This aligns with the provided solution. 
-
 :::
 
